@@ -1,0 +1,43 @@
+.post-form {
+  background-color: #d1d1d1;
+  padding: 1em;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: #242424;
+  gap: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.post-form div {
+  gap: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-form textarea,
+.post-form input {
+  background-color: rgba(255, 255, 255, 0.87);
+  height: 5rem;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #242424;
+  border-radius: 5px;
+  color: #242424;
+}
+
+.post-form input {
+  height: 1rem;
+}
+
+.post-form label {
+  font-weight: 500;
+}
